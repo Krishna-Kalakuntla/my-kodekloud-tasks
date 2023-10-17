@@ -1,6 +1,7 @@
 Following code is an example of Jenkins pipeline to clone a git repo, create a docker image from Dockerfile in repo and push it to docker registry.
 
 ```
+
 pipeline {
     agent {
         label 'node01'
@@ -21,4 +22,5 @@ pipeline {
         }
     }
 }
+
 ```
